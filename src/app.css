@@ -1,0 +1,45 @@
+@reference "./index.css";
+
+.panel {
+  @apply rounded-2xl border border-line bg-white p-5 shadow-card sm:p-6;
+}
+
+.stat-card {
+  @apply rounded-2xl border border-line bg-white p-5 shadow-card;
+}
+
+.stat-label {
+  @apply text-xs font-semibold uppercase tracking-wide text-slate;
+}
+
+.section-title {
+  @apply mb-1 text-base font-semibold tracking-tight text-ink;
+}
+
+.section-caption {
+  @apply mb-0 text-xs leading-5 text-slate;
+}
+
+.eyebrow {
+  @apply mb-2 text-xs font-bold tracking-[0.18em] text-brand;
+}
+
+.form-input {
+  @apply block w-full rounded-xl border border-line bg-white px-3.5 py-3 text-sm text-ink placeholder:text-slate/70 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/10;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-xl bg-brand px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-semibold text-slate transition hover:bg-slate-50;
+}
+
+.btn-small {
+  @apply rounded-lg border border-line px-2.5 py-1.5 text-xs font-semibold text-brand transition hover:bg-blue-50;
+}
+
+.btn-small-danger {
+  @apply rounded-lg border border-rose-200 px-2.5 py-1.5 text-xs font-semibold text-rose-700 transition hover:bg-rose-50 disabled:opacity-50;
+}

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+artifacts/
+cache/
+coverage/
+types/
+.env
+.env.*
+!.env.example
